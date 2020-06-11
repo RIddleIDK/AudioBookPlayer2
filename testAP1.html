@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AudioBook player test</title>
+    <script src="https://kit.fontawesome.com/3e10f942d8.js" crossorigin="anonymous" ></script>
+    <script src="testAP1.js" defer></script>
+    <link rel="stylesheet" href="testAP1.css">
+</head>
+<body>
+    
+    <main>
+
+        <div id="picture"></div>
+
+        <div id="time">
+            <div id="nowTime">00:00:00</div>
+            <div id="allTime">00:00:00</div>
+        </div>
+
+        <div id="AllProggressBar">
+            <div id="TraveledProggressBar"></div>
+        </div>
+
+        <div id="buttons">
+            <div class="button prev" onclick="prevNextFun(-10)">
+                <i class="fas fa-backward"></i>
+            </div>
+
+            <div class="button playPause" onclick="playPauseFun()">
+                <i class="fas fa-play"></i>
+            </div>
+
+            <div class="button next" onclick="prevNextFun(-10)">
+                <i class="fas fa-forward"></i>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>
