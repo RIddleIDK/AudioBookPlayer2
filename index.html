@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AudioBook player</title>
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/3e10f942d8.js" crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="player.css">
+</head>
+<body>
+    
+    <header> 
+        <div id="picture"></div>
+    </header> 
+    
+    <div id="timeDiv">
+        <div id="nowTime">00 : 00 : 00</div>    
+        <div id="allTime"></div>   
+    </div>
+    
+    <main>
+        <div id="AllProggressBar">
+            <div id="DistancTraveledAllProggressBar"></div>
+        </div>
+
+        <div id="managePlayButtonsD">
+            <button class="managePlayButtonsB" onclick="scrollTimeButton(-10)">
+                <i class="fas fa-backward"></i>
+            </button>
+
+            <button class="managePlayButtonsB" onclick="clickPlay()">
+                <i class="fas fa-play"></i>
+            </button>
+
+            <button class="managePlayButtonsB" onclick="scrollTimeButton(10)">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+
+    </main>
+
+</body>
+</html>

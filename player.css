@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html {
+    overflow: hidden;  
+    background: #0d151a;
+}
+
+main, header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    border: none;  
+}
+
+/* #all {
+    margin: 5vh auto;
+    width: 45vh;
+    height: ;
+} */
+
+/* ====================================================== */
+
+/* header {
+    margin-top: 20vh;
+} */
+
+#picture {
+    background: url(pictureXN.jpg);
+    width: 35.5vmin;
+    height: 70vh; 
+    background-size: contain;
+    border-radius: 1vh;
+    margin-top: 10vh;
+}
+
+/* ====================================================== */
+
+main {
+    margin-top: -25vh; 
+} 
+
+/* ========================= Time =========================*/
+
+#nowTime, #allTime {
+    color: #656769;
+    position: relative;
+    margin: 1vh 1vh;
+}
+
+#timeDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+/* ========================= Input / pb =========================*/
+
+/* #progressInput {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 50%;
+}
+
+#progressInput::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #C93E37;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+#progressInput::-webkit-slider-thumb {
+    border: 2px solid #2c2d2e;
+    height: 30px;
+    width: 16px;
+    border-radius: 3px;
+    background: #0d0d0d;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -12px;
+}
+
+#progressInput::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+} */
+
+#AllProggressBar {
+    width: 60%;
+    height: 1.5vh;
+    background: #2c2d2e;
+    margin-top: 1vh;
+}
+
+#DistancTraveledAllProggressBar {
+    width: 0;
+    height: 100%;
+    background: #C93E37;
+}
+
+/* ========================= Buttons ========================= */
+
+#managePlayButtonsD {
+    margin-top: 1vh;
+}
+
+.managePlayButtonsB {
+    margin-top: 2%;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    border: none;
+    background: #1c1e20;
+    color: #9696a1;
+}
+                                
+.managePlayButtonsB:hover {
+    color: #C93E37;
+    background: #2c2d2e;
+}
+                                
+.managePlayButtonsB:nth-child(odd) {
+    width: 3em;
+    height: 3em;
+    margin: 0 1vh;
+}
